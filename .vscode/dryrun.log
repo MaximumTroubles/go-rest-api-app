@@ -1,0 +1,6 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/var/www/go-rest-api'
+echo "==> Build binary file..."
+go build -v ./cmd/apiserver
+make: Leaving directory '/var/www/go-rest-api'
+ 
